@@ -65,6 +65,10 @@ class ExamDetailsScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {
                   // TODO: Open application link
+                  // example code
+                  // if (exam.applicationLink != null) {
+                  //   launchUrl(Uri.parse(exam.applicationLink!));
+                  // }
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),

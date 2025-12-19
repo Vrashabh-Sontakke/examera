@@ -20,6 +20,11 @@ class TrackingButtons extends StatelessWidget {
               return;
             }
             // TODO: Call track API
+            // This marks the exam as applied
+            // example code
+            // if (exam.applicationLink != null) {
+            //   launchUrl(Uri.parse(exam.applicationLink!));
+            // }
           },
           child: const Text('Mark Applied'),
         ),
@@ -31,6 +36,11 @@ class TrackingButtons extends StatelessWidget {
               return;
             }
             // TODO: Call track API
+            // This marks the exam as attempted
+            // example code
+            // if (exam.applicationLink != null) {
+            //   launchUrl(Uri.parse(exam.applicationLink!));
+            // }
           },
           child: const Text('Mark Attempted'),
         ),
