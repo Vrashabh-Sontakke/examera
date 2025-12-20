@@ -120,7 +120,7 @@ class HomeScreen extends StatelessWidget {
                         Navigator.pop(context);
                       },
                     );
-                  }).toList(),
+                  }), // .toList(),
                 ],
               ),
             ],
