@@ -19,11 +19,11 @@
             gnumake
           ];
 
-          shellHook = ''
-            export GOPATH="$HOME/go"
-            export PATH="$GOPATH/bin:$PATH"
-            export DATABASE_URL="postgres://examera:examera_pass@localhost:5432/examera_db?sslmode=disable"
-          '';
+          # shellHook = ''
+          #   export GOPATH="$HOME/go";
+          #   export PATH="$GOPATH/bin:$PATH";
+          #   export DATABASE_URL="postgres://examera:examera_pass@localhost:5432/examera_db?sslmode=disable";
+          # '';
         };
       }
     );
